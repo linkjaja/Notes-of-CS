@@ -20,13 +20,13 @@
    git add .
    ```
 
-4. 用git commit命令把项目提交到本地仓库
+4. 用git commit命令把项目提交到远程库
 
    ``` git
    git commit -m"注释内容"
    ```
 
-5. 关联云仓库
+5. 关联云仓库（非初次可跳过）
 
    ``` git
    git remote add origin https://github.com/用户名/云仓库名.git
@@ -47,7 +47,7 @@
    ``` git
    git push -u origin master
    ```
-   * 报错1云仓库与本地仓库不统一，需要先把云仓库的文件pull下来本地。通过命令git pull实现，再上传。
+   * 报错1云仓库与远程库不统一，需要先把云仓库的文件pull下来本地。通过命令git pull实现，再上传。
 
    ``` git
    git pull --rebase origin master
