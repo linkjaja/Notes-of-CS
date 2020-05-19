@@ -5,7 +5,7 @@
 1. 打开git bash的几种方式
    
 * 在git bash里打开目标文件夹 or 在目标文件夹右键 `git bash here`
-   
+  
 2. 输入命令
 
    ``` git
@@ -33,6 +33,14 @@
    ```
 
    * origin后跟云仓库的https地址
+
+   * 报错1 git添加远程库时出现`fatal:remote origin already exists`，通过先删除origin库，然后再次添加即可。
+
+     ```git
+     git remote rm origin
+     ```
+
+     
 
 6. 推送
 
