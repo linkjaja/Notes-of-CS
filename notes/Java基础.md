@@ -33,7 +33,7 @@ Java基础知识
 
 简单地说，JRE就是运行Java字节码的虚拟机。但是，如果只有Java源码，要编译成Java字节码，就需要JDK，因为JDK除了包含JRE，还提供了编译器、调试器等开发工具。
 
-<img src="/pics/JDK&JRE.png">
+<img src="./pics/JDK&JRE.png">
 
 * 因此可以这样认为：JDK>JRE>JVM，JRE支持了java程序的运行，而JDK则同时支持了java程序的开发。
 
