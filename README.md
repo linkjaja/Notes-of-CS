@@ -6,15 +6,27 @@ CS学习过程中的笔记（更新中）
 
 
 
-# :coffee: Java
+## :coffee: Java
 
-* [Java基础](./notes/Java基础.md)
-* [面向对象](./notes/面向对象.md)
-* [异常处理](./notes/异常处理.md)
+* [Java基础](./notes/Java-basic.md)
+* [面向对象](./notes/OOP-basic.md)
+* [异常处理](./notes/Java-Exception-handling.md)
 
 
 
-# :game_die: 其他
+## :facepunch:Data Structures & Algorithms
+
+
+
+
+
+## :star2:Git
+
+* [Using Git](./notes/Using-Git.md)
+
+
+
+## :ghost:其他
 
 * [cmd速查表(DOS命令)](./notes/others/cmd速查表(DOS命令).md)
 * [IDEA常用快捷键查询表](./notes/others/IDEA常用快捷键查询表.md)

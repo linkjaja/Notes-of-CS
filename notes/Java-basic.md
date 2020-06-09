@@ -6,12 +6,6 @@ Java基础知识
 
 
 
-目录
-
-* [布尔运算](#布尔运算)
-
-
-
 ---
 
 
@@ -71,7 +65,7 @@ Java中的内存划分为5个部分：
 
 ## JDK-API
 
-* [Java Version 14 API Specification](https://docs.oracle.com/en/java/javase/14/docs/api/index.html)
+* [Java Version 14 API Specification](https://docs.oracle.com/en/java/javase/14/docs/api/index.html)：Oracle的官方Java 14 API文档
 
 
 
@@ -103,6 +97,24 @@ Java中的内存划分为5个部分：
 * 不写初始值，就相当于给它指定了默认值。默认值总是`0`。
 
 
+
+## var关键字
+
+* 有些时候，类型的名字太长，写起来比较麻烦。例如：
+
+  ```java
+  StringBuilder sb = new StringBuilder();
+  ```
+
+* 这个时候，如果想省略变量类型，可以使用`var`关键字：
+
+  ```java
+  var sb = new StringBuilder();
+  ```
+
+  编译器会根据赋值语句自动推断出变量`sb`的类型是`StringBuilder`。
+
+  
 
 ## 常量
 
@@ -323,43 +335,48 @@ String s4 = ""; // s4指向空字符串，不是null
 
 
 
-# 数组类型
+# 数组
 
-* 数组是同一数据类型的集合，数组一旦创建后，大小（长度）就不可变；
+* 数组是同一数据类型的集合，数组一旦创建后，大小就不可变；
 * 可以通过索引访问数组元素，但索引超出范围将报错；
 * 数组元素可以是值类型（如int）或引用类型（如String），但数组本身是引用类型；
 * 可以用`数组名称.length`获取数组长度。
 
+---
+
+两种常见的初始化方式：
+
+```java
+int[] numbers = new int[3];
+numbers[0] = 4;
+numbers[1] = 7;
+numbers[2] = 10;
+System.out.println(numbers[1]);
+```
+
+* 动态初始化（指定大小）
+
+---
+
+```java
+int[] numbers = new int[]{4, 7, 10};
+System.out.println(numbers[1]);
+```
+
+* 静态初始化（指定内容）
+
+讲解：
+
+* `int[] numbers;`
+  * Creates a 64 bit box for storing an int array address. (declaration)
+* ` new int[]{4, 7, 10};`
+  * Creates a new Object, in this case an int array. (instantiation)
+* `=`
+  * Puts the address of this new Object into the 64 bit box named a. (assignment)
 
 
-## 数组的初始化
 
-* 两种常见的初始化方式：
 
-  * 动态初始化（指定长度）
-
-  * 静态初始化（指定内容）
-
-    ```java
-    // 动态初始化数组的格式
-    数据类型[] 数组名称 = new 数据类型 [数组长度]
-    // PS:
-    * 解析含义：
-    * 左侧数据类型，也就是数组中保存的数据，全都是统一的什么类型
-    * 左侧中括号，代表我是一个数组
-    * 左侧组名称：给数组取一个名字
-    * 右侧new：代表创建数组的动作
-    * 右侧数据类型：必须和左边的数据类型保持一致
-    * 右侧括号的长度，也就是数组当中，到底可以保存多少个数据，是一个int数字
-    ```
-
-    ```java
-    // 静态初始化
-    // 标准格式
-    数据类型[] 数组名称 = new 数据类型 []{元素1,元素2,...};
-    // 省略格式
-    数据类型[] 数组名称 = {元素1,元素2,...};
-    ```
 
 
 
