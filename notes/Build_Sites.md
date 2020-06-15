@@ -66,7 +66,7 @@ Github Page托管，新建一个Repo，仓库名称必须为：`<user>.github.io
 
 省去输入账号密码的麻烦
 
-[Git 设置ssh密钥](./notes/others/setting_SSH_keys.md)
+[Git 设置ssh密钥](./others/setting_SSH_keys.md)
 
 ### 网站配置文件
 
