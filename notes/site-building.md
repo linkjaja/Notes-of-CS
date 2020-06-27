@@ -38,10 +38,18 @@ Hexo是博客的框架。
 $ npm install -g hexo-cli 
 ```
 
-* 安装完成后，初始化我们的博客、创建根目录：
+* 之后，可以使用下面的命令来看是否安装成功：
+
+  ```bash
+  $ hexo -V
+  ```
+
+* 安装完成后，打开一个文件夹 myblog （它将是我们的网站根目录）
+
+  * 使用 `hexo init ` 命令进行初始化
 
 ```bash
-$ hexo init <根目录名>
+$ hexo init
 ```
 
 此时Hexo框架的本地搭建已经完成了。为了检测网站雏形，在根目录下，依次输入命令：
@@ -49,12 +57,20 @@ $ hexo init <根目录名>
 ```bash
 # hexo g == hexo generate #生成网页
 $ hexo g
-#hexo s == hexo server #启动服务预览
+#hexo s == hexo server #本地部署，可以进行服务预览
 $ hexo s
 ```
 
-浏览器中打开http://locakhost:4000或者127.0.0.1:4000
-若可以看到网页，说明Hexo博客已经成功在本地运行。
+hexo 会启动一个 4000 端口用于预览。
+
+* 预览：浏览器中
+
+  ```text
+  http://locakhost:4000
+  or 127.0.0.1:4000
+  ```
+
+  若可以看到网页，说明Hexo博客已经成功在本地运行。
 
 
 
@@ -99,12 +115,12 @@ branch: master
 $ hexo clean 
 # 生成网页
 $ hexo g 
-# 部署网站
+# 部署网站到github
 $ hexo d
 ```
 
 
-上传完成后，浏览器打开`https://<用户名>.github.io`查看网页，如果页面变成了之前本地调试时的样子，说明网站已经上线，可以在网络上被访问了。
+可以简写为`hexo g -d`。上传完成后，浏览器打开`https://<用户名>.github.io`查看网页，如果页面变成了之前本地调试时的样子，说明网站已经上线，可以在网络上被访问了。
 
 ## 域名与解析
 
@@ -149,8 +165,7 @@ latehour.site
 
 ```bash
 $ hexo clean 
-$ hexo g 
-$ hexo d
+$ hexo g -d
 ```
 
 现在网站可以通过个性化域名访问。

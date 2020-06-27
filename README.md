@@ -8,9 +8,10 @@ CS学习过程中的笔记（更新中）
 
 ## :coffee:  Java
 
-* [Java基础](./notes/Java-basic.md)
-* [面向对象](./notes/OOP-basic.md)
-* [异常处理](./notes/Java-Exception-handling.md)
+* [Java基础](./notes/java-basic.md)
+* [面向对象](./notes/java-oop-basic.md)
+* [异常处理](./notes/java-exception-handling.md)
+* [反射](./notes/java-reflect.md)
 
 
 
@@ -22,13 +23,19 @@ coming soon
 
 ## :beer: ​Build Sites
 
-* [建网站](./notes/Build_Sites.md)
+* [搭建个人网站](./notes/site-building.md)
+
+
+
+## :satellite:计算机网络
+
+* [计算机网络](./notes/computer-network.md)
 
 
 
 ## :star2: Git
 
-* [Using Git](./notes/Using-Git.md)
+* [Git 入门](./notes/git-basic.md)
 
 
 
@@ -39,3 +46,11 @@ coming soon
 * [方法--本地项目上传至GitHub云仓库](./notes/others/方法--本地项目上传至GitHub云仓库.md)
 
 * [Git 设置ssh密钥](./notes/others/setting_SSH_keys.md)
+
+
+
+---
+
+文件名命名规则：英文小写，使用短横杠连接，大类写在最前。
+
+:rainbow: TODO：计算机操作系统，数据库

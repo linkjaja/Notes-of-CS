@@ -103,5 +103,12 @@ git remote set-url origin git@github.com:someaccount/someproject.git
 
 然后你可以再用命令 `git remote -v` 查看一下，url是否已经变成了ssh地址。
 
-配置完成。
+the end.
 
+
+
+## 相关链接
+
+1. [git配置公匙时不必输入密码](https://blog.csdn.net/xiaomengzi_16/article/details/98847298) csdn的一篇文章，也是我曾犯过的错误，困扰了一段时间。
+
+2. [git如何使用ssh密钥](https://www.cnblogs.com/superGG1990/p/6844952.html) 博客园 [superGG1990](https://home.cnblogs.com/u/superGG1990/) 的一篇文章，是一个很好的 walkthrough，我这篇文章就是基于此文写的一个 summary。
