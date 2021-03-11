@@ -2,7 +2,11 @@
 
 hello, world! :octocat:
 
-CS学习过程中的笔记（更新中）
+
+
+## Data Structures & Algorithms
+
+-coming soon-
 
 
 
@@ -15,21 +19,15 @@ CS学习过程中的笔记（更新中）
 
 
 
-## :facepunch: Data Structures & Algorithms
-
-coming soon
-
-
-
 ## :beer: ​Build Sites
 
 * [搭建个人网站](./notes/site-building.md)
 
 
 
-## :satellite:计算机网络
+## :satellite: 计算机网络
 
-* [计算机网络](./notes/computer-network.md)
+-coming soon-
 
 
 
@@ -39,7 +37,7 @@ coming soon
 
 
 
-## :ghost: 其他
+## :ghost: Untagged
 
 * [cmd速查表(DOS命令)](./notes/others/cmd速查表(DOS命令).md)
 * [IDEA常用快捷键查询表](./notes/others/IDEA常用快捷键查询表.md)
@@ -49,8 +47,18 @@ coming soon
 
 
 
----
+## Last but not least
 
-文件名命名规则：英文小写，使用短横杠连接，大类写在最前。
+* 文档命名规则：英文小写，使用短横杠连接，大类写在前。
 
-:rainbow: TODO：计算机操作系统，数据库
+* commit 符号说明：
+
+  * 调色板:art: -- art -- 改进代码结构/文件夹结构（美观）
+
+  * 小铅笔:pencil2:--pencil2 -- 修复错误，包括typo（修）
+
+  * 大铅笔:pencil:-- pencil -- 提交文档（增）
+
+  * 火焰:fire:-- fire -- 移除代码或文件（删）
+
+    

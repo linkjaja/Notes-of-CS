@@ -29,7 +29,7 @@
 
 ```java
 // 三种调用格式：
-1.单独调用：方法名称（参数）
+1.单独调用：方法名称（参数）,如 fun(1);
 2.打印调用：System.out.println(方法名称（参数）);
 3.赋值调用：数据类型 变量名称 = 方法名称（参数）；
 // PS:
@@ -51,7 +51,7 @@
 
 ## 返回值/无返回值
 
-<div align="center"><img src="./pics/return.png"/></div>
+<img src="../pics/return.png" style="zoom:50%;"/>
 
 
 
